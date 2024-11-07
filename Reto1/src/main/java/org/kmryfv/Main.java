@@ -12,7 +12,6 @@ public class Main {
             System.out.println("Ingrese un numero entero positivo: ");
             numero = sc.nextInt();
 
-
             if (numero <= 0) {
                 System.out.println("El numero debe ser positivo");
                 return;
