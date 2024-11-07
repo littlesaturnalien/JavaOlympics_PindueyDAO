@@ -14,12 +14,12 @@ public class Main {
             //La salida (los factores) deben multiplicarse y dar como resultado el numero que se ingreso
             int numero;
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Ingrese un numero entero positivo: ");
+            System.out.print("Ingrese un numero entero positivo: ");
             numero = scanner.nextInt();
 
 
             if (numero <= 0) {
-                System.out.println("El numero debe ser positivo");
+                System.out.print("El numero debe ser positivo");
                 return;
             }
             FactorMultiplo factorMultiplo = new FactorMultiplo();
